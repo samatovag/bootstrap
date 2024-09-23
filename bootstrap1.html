@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Advice - Fashion Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrapstyles.css" type="text/css"/>
+    <style>
+        body {
+            padding-top: 110px; 
+        }
+        .card:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+        }
+        .btn-outline-primary:hover {
+            background-color: plum;
+            color: white;
+        }
+        .card-img-top {
+            object-fit: cover; 
+            height: 200px; 
+        }
+        header {
+            position: fixed; 
+            width: 100%; 
+            z-index: 1000; 
+            top: 0; 
+            padding: 2px 0;
+        }
+        header h1 {
+            font-size: 1.5rem; 
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-light">
+        <h1 class="text-center">Fashion Trends & History</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Fashion Fable</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="bootstrap1.html">Style Advice</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bootstrap2.html">Fashion History</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-3">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-4">
+        <section id="style-advice">
+            <h2 class="fs-2">Style Advice</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/2/2018/02/OliveAnkara-sustainable-fashion-singapore-900x643.png" class="card-img-top img-fluid" alt="Eco-friendly Fashion">
+                        <div class="card-body">
+                            <h5 class="card-title">Eco-friendly and sustainable fashion</h5>
+                            <p class="card-text">Look for brands that prioritize ethical practices, recycled materials, and timeless pieces that won’t go out of style.</p>
+                        </div>
+                        <div class="card-footer">
+                            <figcaption>An example of eco-friendly and sustainable fashion.</figcaption>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://silverbobbin.com/wp-content/uploads/Seamstress-vs-Tailor.jpg" class="card-img-top img-fluid" alt="Tailoring in Fashion">
+                        <div class="card-body">
+                            <h5 class="card-title">Tailoring</h5>
+                            <p class="card-text">Structured blazers, high-waisted trousers, and well-fitted coats are great investments that add polish and can be dressed up or down.</p>
+                        </div>
+                        <div class="card-footer">
+                            <figcaption>An example of tailoring a special piece of clothing.</figcaption>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img-overlay">
+                            <img src="https://assets.vogue.com/photos/5c81a03259ab632dbd0802a5/master/w_2560%2Cc_limit/00-VW-layering-trends.jpg" class="card-img-top img-fluid" alt="Layering in Fashion">
+                            <h5 class="card-title text-light">Layering</h5>
+                            <p class="card-text text-light">Master the art of layering to create dynamic outfits. Combine textures and lengths for a visually interesting look.</p>
+                        </div>
+                        <div class="card-footer">
+                            <figcaption>An example of layering different varieties of clothes.</figcaption>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://assets.vogue.com/photos/5d94c35e6cf3750008673e26/master/w_2560%2Cc_limit/00_story.jpg" class="card-img-top img-fluid" alt="Minimalist Fashion">
+                        <div class="card-body">
+                            <h5 class="card-title">Minimalist elegance</h5>
+                            <p class="card-text">For those who prefer a more understated look, minimalist fashion is still very much in vogue with clean lines and simple, well-made pieces.</p>
+                        </div>
+                        <div class="card-footer">
+                            <figcaption>Some understated outfits.</figcaption>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://assets.vogue.com/photos/63f937425af7573e1849a2ea/master/w_2560%2Cc_limit/00-story%2520(1).jpg" class="card-img-top img-fluid" alt="Comfortable Fits">
+                        <div class="card-body">
+                            <h5 class="card-title">Comfort</h5>
+                            <p class="card-text">Think stylish yet comfortable pieces like oversized sweaters and relaxed-fit trousers. The goal is to look good while feeling great.</p>
+                        </div>
+                        <div class="card-footer">
+                            <figcaption>More comfy pieces of clothing put together.</figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form" class="my-4">
+            <h2 class="fs-2">Contact Us ! ! </h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="name" placeholder="fullname" required>
+                            <label for="name">name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" placeholder="abc@xxx.com" required>
+                            <label for="email">email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <textarea class="form-control" id="message" placeholder="..message.." style="height: 100px" required></textarea>
+                        <label for="message">message</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-outline-primary">send!</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer class="bg-light text-center p-3">
+        <p class="fs-6">&copy; Fashion Fable - Team Members: Guldana Samatova, Arailym Mukazhan, Ayaulym Muratbekova</p>
+    </footer>
+</body>
+</html>
